@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <script src="to-do.js"></script>
+    <title>Task_Assignment</title>
+</head>
+<body>
+    <div class="total">
+        <div class="heads">
+            <h1>Task To_Do</h1>
+                <div class="search">
+                    <input type="text" class="srch" onkeyup="search()" id="srch" placeholder="Search">
+                    <button class="btn1">Search</button>
+                </div>
+        </div>
+                <div >
+            <h3>Create Task</h3>
+        </div>
+        <!-- <div>
+            <div class="search">
+            
+                <input type="text"  onkeyup="search()" id="srch" placeholder="Search">
+                <button class="btn1">Search</button>
+            </div> -->
+            <div class="add">
+                <input class="add1"  type="text" id="taskn"  placeholder="Task">
+                <button onclick="addtask()" class="btn2">Add</button>
+            </div>
+            <!-- <div>
+                <input type="checkbox">
+                <input type="text">
+                <select name="" id="">
+                    <option value="">To_Do</option>
+                    <option value="">In_Progress</option>
+                    <option value="">Completed</option>
+                </select> 
+                <button>Delete</button>
+            </div> -->
+            <div class="task" id="task_container">
+                <table class="tab" id="tabh">
+                    <tr>
+                        <th>Checkbox</th>
+                        <th>Task Name</th>
+                        <th>Task Status</th>
+                        <th>Remove Task</th>
+                    </tr>
+                </table>
+    
+            </div>
+    
+        </div>
+        
+    </div>
+
+</body>
+</html>
